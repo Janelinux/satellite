@@ -10,7 +10,7 @@
 - Manually-labeled real-attack SMV dataset: We exhaustively search for SMV attack reports from the public,construct a manually-labeled attack dataset with a groundtruth of 58 SMV instances.
 - Library-misuse dataset: This dataset consists of 56 contracts containing SMVs which are extracted  from SOTA studies and open-source platforms (e.g., GitHub).  
 - Large-scale contract dataset: This dataset is composed of 10,011 wild contracts which is randomly sampled from the current largest available open-source contract dataset.
-
+- The dataset commit hash is bdf7e0c54ca36c702ad5953e358f245487e0806a. However, please note that the hash changes with each commit.
 ## Step-by-Step Instructions
 
 ### 1. Build the Docker Image
