@@ -6,6 +6,10 @@
 
 ## Dataset
 - Before starting, you need to place your smart contract bytecode files in the bytecode1 folder. We have already provided DApp data in the bytecode1 directory for your convenience.
+- In the dataset folder,there are the dataset we provide
+- Manually-labeled real-attack SMV dataset: We exhaustively search for SMV attack reports from the public,construct a manually-labeled attack dataset with a groundtruth of 58 SMV instances.
+- Library-misuse dataset: This dataset consists of 56 contracts containing SMVs which are extracted  from SOTA studies and open-source platforms (e.g., GitHub).  
+- Large-scale contract dataset: This dataset is composed of 10,011 wild contracts which is randomly sampled from the current largest available open-source contract dataset.
 
 ## Step-by-Step Instructions
 
